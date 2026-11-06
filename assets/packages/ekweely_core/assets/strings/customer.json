@@ -1,0 +1,826 @@
+{
+ "en": {
+  "dir": "ltr",
+  "arrow": "←",
+  "chev": "›",
+  "cur": "EGP",
+  "now": "now",
+  "nav": [
+   "Home",
+   "Orders",
+   "Shops",
+   "Account"
+  ],
+  "items": {
+   "shirt": "Shirts",
+   "trousers": "Trousers",
+   "galabeya": "Galabeya",
+   "sheet": "Bedsheets",
+   "suit": "Suit jackets"
+  },
+  "onb": [
+   {
+    "title": "Choose your shop",
+    "body": "Every shop sets its own prices and turnaround time. Pick the one you trust.",
+    "slot": "illustration:\nchoose your shop"
+   },
+   {
+    "title": "Count, then hand over",
+    "body": "Tell us how many pieces are in the bag. The shop recounts on arrival and starts ironing. They only call if the numbers don't match.",
+    "slot": "illustration:\ncount and hand over"
+   },
+   {
+    "title": "Pay however you like",
+    "body": "Cash on delivery or card, whichever is easiest for you that day.",
+    "slot": "illustration:\npay your way"
+   }
+  ],
+  "next": "Next",
+  "start": "Get started",
+  "skip": "Skip",
+  "signup": {
+   "step": "Step {n} of 3",
+   "q1": "What's your name?",
+   "q2": "What's your mobile number?",
+   "q3": "Choose a password",
+   "next": "Continue",
+   "title": "Create your account",
+   "sub": "It takes a minute.",
+   "name": "Full name",
+   "namePh": "Nour Ahmed",
+   "phone": "Mobile number",
+   "phonePh": "010 1234 5678",
+   "pass": "Password",
+   "passPh": "At least 8 characters",
+   "show": "Show",
+   "hide": "Hide",
+   "errName": "Enter your name",
+   "errPhone": "Enter an 11-digit number starting with 01",
+   "errPass": "Use at least 8 characters",
+   "cta": "Create account",
+   "have": "Already have an account?",
+   "link": "Log in"
+  },
+  "otp": {
+   "title": "Enter the code",
+   "sub": "We sent a 6-digit code to {p}.",
+   "ph": "······",
+   "resend": "Didn't get it? Resend code",
+   "cta": "Verify"
+  },
+  "login": {
+   "title": "Welcome back",
+   "sub": "Log in with your mobile number.",
+   "forgot": "Forgot password?",
+   "cta": "Log in",
+   "no": "New here?",
+   "link": "Sign up",
+   "err": "Check your number and password",
+   "demoCustomer": "Try as a customer",
+   "demoShop": "Try as a shop owner",
+   "demoReset": "Reset demo data",
+   "demoNote": "Demo mode: any password works."
+  },
+  "prefs": {
+   "title": "Stay in the loop",
+   "sub": "Know when your bag is picked up, counted and on its way back.",
+   "body": "We only send updates about your orders.",
+   "enable": "Enable",
+   "later": "Maybe later"
+  },
+  "home": {
+   "greet": "Good evening, {n}",
+   "sub": "What needs ironing today?",
+   "addr": "Building 14, apt 6 · 26th of July St.",
+   "edit": "Edit",
+   "next": "Next pickup",
+   "cutoff": "Evening closes 5:00 PM",
+   "rounds": [
+    {
+     "k": "morning",
+     "l": "Morning",
+     "t": "7:00–9:00 AM"
+    },
+    {
+     "k": "evening",
+     "l": "Evening",
+     "t": "5:30–7:00 PM"
+    }
+   ],
+   "cta": "Request pickup",
+   "active": "Current order",
+   "track": "Track order",
+   "greetM": "Good morning, {n}",
+   "greetA": "Good afternoon, {n}",
+   "cutoffT": "{r} closes {t}",
+   "closed": "No pickups today. Try another shop.",
+   "setLocTitle": "Where are you?",
+   "setLocBody": "Set your location to see the ironing shops that deliver to you.",
+   "setLocCta": "Set my location",
+   "howTitle": "How it works",
+   "how": [
+    "You count",
+    "We pick up",
+    "Back ironed"
+   ],
+   "deliverTo": "Deliver to",
+   "bannerTitle": "Fresh ironing,\nat your door",
+   "bannerSub": "Count your clothes. We handle the rest.",
+   "pickupTime": "Pickup time",
+   "nearby": "Shops near you",
+   "seeAll": "See all",
+   "eta": "Expected"
+  },
+  "shops": {
+   "title": "Choose a shop",
+   "tip": "Each shop sets its own prices. You pay after the shop counts your pieces.",
+   "choose": "Choose",
+   "full": "Full today",
+   "reviews": "{n} reviews",
+   "none": "No shops deliver to your location yet. We're adding more across New Cairo soon.",
+   "away": "{d} away",
+   "sortNear": "Nearest",
+   "sortRated": "Top rated",
+   "sortFast": "Fastest"
+  },
+  "shop": {
+   "desc": "Ironing and pressing since 1998",
+   "turn": "Turnaround",
+   "fee": "Delivery",
+   "cap": "Pieces a day",
+   "prices": "Prices",
+   "cta": "Continue with this shop"
+  },
+  "cart": {
+   "heading": "Confirm pickup",
+   "change": "Change",
+   "round": "Pickup round",
+   "addr": "Pickup address",
+   "edit": "Edit",
+   "bag": "What's in the bag",
+   "pcs": "pieces",
+   "est": "Estimated total",
+   "note": "The shop recounts when your bag arrives. If the numbers don't match, they'll call you before ironing.",
+   "fee": "Delivery fee 15 EGP, included in the estimate.",
+   "cta": "Continue"
+  },
+  "safety": {
+   "heading": "Photos",
+   "optional": "Optional",
+   "prompt": "Snap a few photos of your clothes before handing them over. They stay with the order in case anything goes wrong.",
+   "add": "Add photo",
+   "policy": "Photos are only used if you report a problem.",
+   "cta": "Request pickup",
+   "ctaN": "Request pickup · {n} photos",
+   "skip": "Skip photos"
+  },
+  "requested": {
+   "title": "Pickup requested",
+   "sub": "{s} will collect your bag on the {r} round, {t}.",
+   "cta": "Track order",
+   "home": "Back to home"
+  },
+  "track": {
+   "order": "Order 1049",
+   "now": "Now",
+   "status": [
+    "Waiting for pickup",
+    "On its way to the shop",
+    "Being ironed",
+    "Ready",
+    "On its way to you",
+    "Delivered"
+   ],
+   "subs": [
+    "{g} from {s} collects on the {r} round, {t}.",
+    "{g} is taking your bag to {s}.",
+    "The shop counted {n} pieces, matching your count.",
+    "Goes out on the next round, 7:00–9:00 AM.",
+    "{g} is bringing your clothes back.",
+    "Your clothes are back."
+   ],
+   "stages": [
+    "Pickup requested",
+    "Picked up",
+    "Count checked · ironing started",
+    "Ready",
+    "Out for delivery",
+    "Delivered"
+   ],
+   "notes": [
+    "Today, 4:12 PM",
+    "{g} collected your bag",
+    "{n} pieces · matches your count",
+    "Goes out on the next round",
+    "Morning round, 7:00–9:00 AM",
+    "Tomorrow, 7:40 AM"
+   ],
+   "hold": "The shop will call you about the count",
+   "holdNote": "You listed {l} pieces; the shop found {m}. Ironing is paused until you agree.",
+   "holdStage": "Question about the count",
+   "total": "Total",
+   "list": "View list",
+   "payCard": "Pay by card",
+   "cash": "Cash on delivery",
+   "paidCard": "Paid by card •••• 4829",
+   "addr": "Delivery address",
+   "addrLocked": "Already on the way. Call the shop to change it.",
+   "call": "Call shop",
+   "pending": "Your final price is confirmed once the shop checks your count.",
+   "orderN": "Order {n}",
+   "tomorrow": "Tomorrow",
+   "today": "Today",
+   "cancel": "Cancel order",
+   "cancelAsk": "Cancel this pickup?",
+   "cancelYes": "Yes, cancel",
+   "cancelNo": "Keep it",
+   "cancelled": "Order cancelled",
+   "demoNext": "Demo: next step",
+   "demoMismatch": "Demo: shop finds a different count"
+  },
+  "received": {
+   "chip": "Being ironed",
+   "note": "{s} checked your bag against your count. Ironing has started.",
+   "fee": "Delivery fee",
+   "total": "Total",
+   "photos": "Your photos",
+   "disclaimer": "If the count doesn't match what you sent, the shop will call you.",
+   "cta": "Track order"
+  },
+  "pay": {
+   "title": "How do you want to pay?",
+   "cash": "Cash on delivery",
+   "cashSub": "Pay when your clothes come back",
+   "card": "Visa •••• 4829",
+   "cardSub": "Expires 08/28",
+   "cta": "Confirm",
+   "ctaCard": "Pay {a}"
+  },
+  "receipt": {
+   "title": "Delivered",
+   "thanks": "Your clothes are back. Thanks for using Ekweely.",
+   "fee": "Delivery fee",
+   "total": "Total",
+   "paidCash": "Paid in cash",
+   "paidCard": "Paid by card •••• 4829",
+   "rate": "How was {s}?",
+   "report": "Report a problem",
+   "done": "Done"
+  },
+  "comp": {
+   "heading": "Report a problem",
+   "step": "{n} of 2",
+   "calm": "We're sorry. Tell us what happened and Ekweely support will look into it.",
+   "what": "What went wrong?",
+   "opts": [
+    "A piece is missing",
+    "Something was damaged",
+    "Not ironed properly",
+    "Something else"
+   ],
+   "desc": "Tell us more",
+   "descPh": "e.g. One white shirt is missing",
+   "photoNote": "Your {n} pickup photos are attached to the report.",
+   "noPhoto": "You can add photos later from the order.",
+   "next": "Next",
+   "send": "Send report",
+   "doneTitle": "Report sent",
+   "doneSub": "Ekweely support will call you within 24 hours to sort it out.",
+   "home": "Back to home"
+  },
+  "orders": {
+   "title": "Orders",
+   "current": "Current",
+   "past": "Past",
+   "delivered": "Delivered",
+   "pastList": [
+    {
+     "s": "Am Sayed's Shop",
+     "m": "12 Sep · 11 pieces",
+     "v": "214 EGP"
+    },
+    {
+     "s": "El Nour Ironing",
+     "m": "2 Sep · 8 pieces",
+     "v": "151 EGP"
+    }
+   ],
+   "pastNew": "Today · {n} pieces"
+  },
+  "addr": {
+   "title": "Address",
+   "sub": "Pickups and deliveries come to this address.",
+   "street": "Street",
+   "bld": "Building",
+   "apt": "Apartment",
+   "note": "Directions (optional)",
+   "notePh": "e.g. Blue door, ring twice",
+   "save": "Save address",
+   "live": "Your current order will be delivered to the new address.",
+   "fmt": "Building {b}, apt {a} · {s}",
+   "mapTitle": "Where should we pick up?",
+   "mapHint": "Move the map so the pin sits on your building.",
+   "myLoc": "Use my location",
+   "confirmPin": "Confirm location",
+   "floor": "Floor",
+   "pinNeeded": "Set your location on the map",
+   "pinSet": "Location set on the map",
+   "changePin": "Change",
+   "locDenied": "Location is off. Move the map to your building instead.",
+   "mapOff": "The map couldn't load. Use your location instead.",
+   "fmtFloor": "Building {b}, floor {f}, apt {a} · {s}"
+  },
+  "past": {
+   "title": "Past order",
+   "rate": "Rate this order",
+   "rated": "Your rating",
+   "thanks": "Thanks. You can change it any time.",
+   "total": "Total",
+   "report": "Report a problem",
+   "chip": "Rate",
+   "again": "Order again"
+  },
+  "account": {
+   "title": "Account",
+   "lang": "Language",
+   "dark": "Dark mode",
+   "notif": "Order updates",
+   "addr": "Addresses",
+   "help": "Help",
+   "logout": "Log out",
+   "privacy": "Privacy policy",
+   "delete": "Delete account",
+   "delTitle": "Delete your account?",
+   "delBody": "Your login, name, number, addresses and photos are removed for good. Orders not picked up yet are cancelled. Past orders stay in the shops' records without your details.",
+   "delYes": "Delete for good",
+   "delNo": "Keep my account",
+   "delBusy": "A shop still has your clothes. You can delete your account after that order is delivered.",
+   "delShop": "Shop accounts are closed by Ekweely. Please contact us.",
+   "deleted": "Your account was deleted.",
+   "demoReset": "Reset demo data"
+  },
+  "toast": {
+   "addr": [
+    "Address updated",
+    "{s} will deliver to your new address."
+   ],
+   "rated": [
+    "Thanks for rating",
+    "It helps other customers choose a shop."
+   ],
+   "picked": [
+    "Bag picked up",
+    "{g} collected your bag. It's on its way to {s}."
+   ],
+   "counted": [
+    "Count matches",
+    "{s} found your {n} pieces and started ironing. Total {a}."
+   ],
+   "problem": [
+    "Count doesn't match",
+    "You listed {l} pieces, {s} found {m}. They'll call you."
+   ],
+   "resolved": [
+    "Ironing resumed",
+    "You agreed on {n} pieces. New total {a}."
+   ],
+   "ready": [
+    "Your clothes are ready",
+    "They go out on the next round, 7:00–9:00 AM."
+   ],
+   "out": [
+    "On the way",
+    "{g} is bringing your clothes back."
+   ],
+   "delivered": [
+    "Delivered",
+    "Rate your order with {s}."
+   ],
+   "resent": [
+    "Code sent",
+    "Check your messages for a new code."
+   ],
+   "paid": [
+    "Payment received",
+    "{a} paid by card."
+   ]
+  },
+  "common": {
+   "retry": "Try again",
+   "error": "Something went wrong. Check your connection and try again.",
+   "soon": "Card payment is coming soon. You can pay cash on delivery."
+  }
+ },
+ "ar": {
+  "dir": "rtl",
+  "arrow": "→",
+  "chev": "‹",
+  "cur": "ج.م",
+  "now": "الآن",
+  "nav": [
+   "الرئيسية",
+   "الطلبات",
+   "المحلات",
+   "الحساب"
+  ],
+  "items": {
+   "shirt": "قمصان",
+   "trousers": "بناطيل",
+   "galabeya": "جلابيات",
+   "sheet": "ملاءات",
+   "suit": "جواكت بدل"
+  },
+  "onb": [
+   {
+    "title": "اختر محلك",
+    "body": "كل محل في الحي يحدد أسعاره ومواعيده. اختر المحل الذي تثق به.",
+    "slot": "illustration:\nchoose your shop"
+   },
+   {
+    "title": "عُدّ ثم سلّم",
+    "body": "أخبرنا بعدد القطع في الحقيبة. يعيد المحل العد عند الوصول ويبدأ الكي، ولا يتصل بك إلا إذا اختلف العدد.",
+    "slot": "illustration:\ncount and hand over"
+   },
+   {
+    "title": "ادفع كما تحب",
+    "body": "نقدًا عند الاستلام أو بالبطاقة، الأسهل لك في ذلك اليوم.",
+    "slot": "illustration:\npay your way"
+   }
+  ],
+  "next": "التالي",
+  "start": "لنبدأ",
+  "skip": "تخطي",
+  "signup": {
+   "step": "الخطوة {n} من 3",
+   "q1": "ما اسمك؟",
+   "q2": "ما رقم موبايلك؟",
+   "q3": "اختر كلمة مرور",
+   "next": "التالي",
+   "title": "أنشئ حسابك",
+   "sub": "لن يستغرق أكثر من دقيقة.",
+   "name": "الاسم بالكامل",
+   "namePh": "نور أحمد",
+   "phone": "رقم الموبايل",
+   "phonePh": "010 1234 5678",
+   "pass": "كلمة المرور",
+   "passPh": "8 أحرف على الأقل",
+   "show": "إظهار",
+   "hide": "إخفاء",
+   "errName": "اكتب اسمك",
+   "errPhone": "اكتب رقمًا من 11 خانة يبدأ بـ 01",
+   "errPass": "استخدم 8 أحرف على الأقل",
+   "cta": "إنشاء الحساب",
+   "have": "لديك حساب بالفعل؟",
+   "link": "تسجيل الدخول"
+  },
+  "otp": {
+   "title": "أدخل الرمز",
+   "sub": "أرسلنا رمزًا من 6 أرقام إلى {p}.",
+   "ph": "······",
+   "resend": "لم يصلك؟ أعد إرسال الرمز",
+   "cta": "تأكيد"
+  },
+  "login": {
+   "title": "مرحبًا بعودتك",
+   "sub": "سجّل الدخول برقم موبايلك.",
+   "forgot": "نسيت كلمة المرور؟",
+   "cta": "تسجيل الدخول",
+   "no": "مستخدم جديد؟",
+   "link": "إنشاء حساب",
+   "err": "راجع الرقم وكلمة المرور",
+   "demoCustomer": "جرّب كعميل",
+   "demoShop": "جرّب كصاحب محل",
+   "demoReset": "إعادة ضبط البيانات التجريبية",
+   "demoNote": "وضع تجريبي: أي كلمة مرور تعمل."
+  },
+  "prefs": {
+   "title": "ابقَ على اطلاع",
+   "sub": "اعرف متى تُستلم حقيبتك ومتى تُعدّ ومتى تعود إليك.",
+   "body": "نرسل فقط تحديثات عن طلباتك.",
+   "enable": "تفعيل",
+   "later": "ربما لاحقًا"
+  },
+  "home": {
+   "greet": "مساء الخير يا {n}",
+   "sub": "ماذا تريد أن تكوي اليوم؟",
+   "addr": "عمارة 14، شقة 6 · شارع 26 يوليو",
+   "edit": "تعديل",
+   "next": "الاستلام القادم",
+   "cutoff": "جولة المساء تغلق 5:00 م",
+   "rounds": [
+    {
+     "k": "morning",
+     "l": "الصباح",
+     "t": "7:00–9:00 ص"
+    },
+    {
+     "k": "evening",
+     "l": "المساء",
+     "t": "5:30–7:00 م"
+    }
+   ],
+   "cta": "اطلب الاستلام",
+   "active": "الطلب الحالي",
+   "track": "تتبع الطلب",
+   "greetM": "صباح الخير يا {n}",
+   "greetA": "مساء الخير يا {n}",
+   "cutoffT": "جولة {r} تغلق {t}",
+   "closed": "لا يوجد استلام اليوم. جرّب محلًا آخر.",
+   "setLocTitle": "أين أنت؟",
+   "setLocBody": "حدّد موقعك لترى محلات الكي التي توصّل إليك.",
+   "setLocCta": "حدّد موقعي",
+   "howTitle": "كيف يعمل",
+   "how": [
+    "أنت تعدّ",
+    "نستلم",
+    "نوصّل"
+   ],
+   "deliverTo": "التوصيل إلى",
+   "bannerTitle": "كيّ مرتّب\nعند بابك",
+   "bannerSub": "عُدّ ملابسك ونحن نتولى الباقي.",
+   "pickupTime": "موعد الاستلام",
+   "nearby": "محلات قريبة منك",
+   "seeAll": "عرض الكل",
+   "eta": "المتوقع"
+  },
+  "shops": {
+   "title": "اختر محلًا",
+   "tip": "كل محل يحدد أسعاره. تدفع بعد أن يعدّ المحل قطعك.",
+   "choose": "اختيار",
+   "full": "مكتمل اليوم",
+   "reviews": "{n} تقييم",
+   "none": "لا توجد محلات توصّل إلى موقعك بعد. نضيف المزيد في القاهرة الجديدة قريبًا.",
+   "away": "على بُعد {d}",
+   "sortNear": "الأقرب",
+   "sortRated": "الأعلى تقييمًا",
+   "sortFast": "الأسرع"
+  },
+  "shop": {
+   "desc": "كي وتسوية منذ 1998",
+   "turn": "مدة التجهيز",
+   "fee": "التوصيل",
+   "cap": "قطعة يوميًا",
+   "prices": "الأسعار",
+   "cta": "متابعة مع هذا المحل"
+  },
+  "cart": {
+   "heading": "تأكيد الاستلام",
+   "change": "تغيير",
+   "round": "جولة الاستلام",
+   "addr": "عنوان الاستلام",
+   "edit": "تعديل",
+   "bag": "ما في الحقيبة",
+   "pcs": "قطعة",
+   "est": "الإجمالي التقديري",
+   "note": "يعيد المحل العد عند وصول الحقيبة. إذا اختلف العدد سيتصل بك قبل الكي.",
+   "fee": "رسوم التوصيل 15 ج.م مشمولة في التقدير.",
+   "cta": "متابعة"
+  },
+  "safety": {
+   "heading": "الصور",
+   "optional": "اختياري",
+   "prompt": "التقط بعض الصور لملابسك قبل تسليمها. تبقى مع الطلب في حال حدوث أي مشكلة.",
+   "add": "إضافة صورة",
+   "policy": "تُستخدم الصور فقط إذا أبلغت عن مشكلة.",
+   "cta": "اطلب الاستلام",
+   "ctaN": "اطلب الاستلام · {n} صور",
+   "skip": "تخطي الصور"
+  },
+  "requested": {
+   "title": "تم طلب الاستلام",
+   "sub": "سيستلم {s} حقيبتك في جولة {r}، {t}.",
+   "cta": "تتبع الطلب",
+   "home": "العودة للرئيسية"
+  },
+  "track": {
+   "order": "طلب 1049",
+   "now": "الآن",
+   "status": [
+    "بانتظار الاستلام",
+    "في الطريق إلى المحل",
+    "جارٍ الكي",
+    "جاهز",
+    "في الطريق إليك",
+    "تم التسليم"
+   ],
+   "subs": [
+    "يستلم {g} من {s} في جولة {r}، {t}.",
+    "{g} في الطريق بحقيبتك إلى {s}.",
+    "عدّ المحل {n} قطعة، مطابقة لعددك.",
+    "يخرج في الجولة القادمة، 7:00–9:00 ص.",
+    "{g} في الطريق بملابسك.",
+    "عادت ملابسك."
+   ],
+   "stages": [
+    "تم طلب الاستلام",
+    "تم الاستلام",
+    "تمت مراجعة العدد · بدأ الكي",
+    "جاهز",
+    "خرج للتوصيل",
+    "تم التسليم"
+   ],
+   "notes": [
+    "اليوم، 4:12 م",
+    "استلم {g} حقيبتك",
+    "{n} قطعة · مطابق لعددك",
+    "يخرج في الجولة القادمة",
+    "جولة الصباح، 7:00–9:00 ص",
+    "غدًا، 7:40 ص"
+   ],
+   "hold": "سيتصل بك المحل بخصوص العدد",
+   "holdNote": "سجّلت {l} قطعة ووجد المحل {m}. الكي متوقف حتى تتفقا.",
+   "holdStage": "سؤال عن العدد",
+   "total": "الإجمالي",
+   "list": "عرض القائمة",
+   "payCard": "ادفع بالبطاقة",
+   "cash": "الدفع نقدًا عند الاستلام",
+   "paidCard": "مدفوع بالبطاقة •••• 4829",
+   "addr": "التوصيل إلى",
+   "addrLocked": "الطلب في الطريق. اتصل بالمحل للتغيير.",
+   "call": "اتصل بالمحل",
+   "pending": "يتأكد السعر النهائي بعد أن يراجع المحل عددك.",
+   "orderN": "طلب {n}",
+   "tomorrow": "غدًا",
+   "today": "اليوم",
+   "cancel": "إلغاء الطلب",
+   "cancelAsk": "إلغاء طلب الاستلام هذا؟",
+   "cancelYes": "نعم، إلغاء",
+   "cancelNo": "إبقاء الطلب",
+   "cancelled": "تم إلغاء الطلب",
+   "demoNext": "تجريبي: الخطوة التالية",
+   "demoMismatch": "تجريبي: المحل وجد عددًا مختلفًا"
+  },
+  "received": {
+   "chip": "جارٍ الكي",
+   "note": "راجع {s} حقيبتك مع عددك. بدأ الكي.",
+   "fee": "رسوم التوصيل",
+   "total": "الإجمالي",
+   "photos": "صورك",
+   "disclaimer": "إذا لم يطابق العدد ما أرسلته، سيتصل بك المحل.",
+   "cta": "تتبع الطلب"
+  },
+  "pay": {
+   "title": "كيف تريد أن تدفع؟",
+   "cash": "نقدًا عند الاستلام",
+   "cashSub": "ادفع عند عودة ملابسك",
+   "card": "Visa •••• 4829",
+   "cardSub": "تنتهي 08/28",
+   "cta": "تأكيد",
+   "ctaCard": "ادفع {a}"
+  },
+  "receipt": {
+   "title": "تم التسليم",
+   "thanks": "عادت ملابسك. شكرًا لاستخدامك إكويلي.",
+   "fee": "رسوم التوصيل",
+   "total": "الإجمالي",
+   "paidCash": "مدفوع نقدًا",
+   "paidCard": "مدفوع بالبطاقة •••• 4829",
+   "rate": "كيف كانت تجربتك مع {s}؟",
+   "report": "الإبلاغ عن مشكلة",
+   "done": "تم"
+  },
+  "comp": {
+   "heading": "الإبلاغ عن مشكلة",
+   "step": "{n} من 2",
+   "calm": "نأسف لذلك. أخبرنا بما حدث وسيتابع دعم إكويلي الأمر.",
+   "what": "ما المشكلة؟",
+   "opts": [
+    "قطعة ناقصة",
+    "شيء تالف",
+    "الكي غير جيد",
+    "شيء آخر"
+   ],
+   "desc": "أخبرنا بالتفاصيل",
+   "descPh": "مثال: قميص أبيض ناقص",
+   "photoNote": "صور الاستلام ({n}) مرفقة بالبلاغ.",
+   "noPhoto": "يمكنك إضافة صور لاحقًا من الطلب.",
+   "next": "التالي",
+   "send": "إرسال البلاغ",
+   "doneTitle": "تم إرسال البلاغ",
+   "doneSub": "سيتصل بك دعم إكويلي خلال 24 ساعة لحل المشكلة.",
+   "home": "العودة للرئيسية"
+  },
+  "orders": {
+   "title": "الطلبات",
+   "current": "الحالي",
+   "past": "السابقة",
+   "delivered": "تم التسليم",
+   "pastList": [
+    {
+     "s": "محل عم سيد",
+     "m": "12 سبتمبر · 11 قطعة",
+     "v": "214 ج.م"
+    },
+    {
+     "s": "مكوجي النور",
+     "m": "2 سبتمبر · 8 قطع",
+     "v": "151 ج.م"
+    }
+   ],
+   "pastNew": "اليوم · {n} قطعة"
+  },
+  "addr": {
+   "title": "العنوان",
+   "sub": "يتم الاستلام والتوصيل على هذا العنوان.",
+   "street": "الشارع",
+   "bld": "العمارة",
+   "apt": "الشقة",
+   "note": "وصف المكان (اختياري)",
+   "notePh": "مثال: باب أزرق، اضغط الجرس مرتين",
+   "save": "حفظ العنوان",
+   "live": "سيُسلَّم طلبك الحالي إلى العنوان الجديد.",
+   "fmt": "عمارة {b}، شقة {a} · {s}",
+   "mapTitle": "من أين نستلم؟",
+   "mapHint": "حرّك الخريطة حتى يكون الدبوس على عمارتك.",
+   "myLoc": "استخدم موقعي",
+   "confirmPin": "تأكيد الموقع",
+   "floor": "الدور",
+   "pinNeeded": "حدّد موقعك على الخريطة",
+   "pinSet": "تم تحديد الموقع على الخريطة",
+   "changePin": "تغيير",
+   "locDenied": "الموقع مغلق. حرّك الخريطة إلى عمارتك بدلًا من ذلك.",
+   "mapOff": "تعذّر تحميل الخريطة. استخدم موقعك بدلًا من ذلك.",
+   "fmtFloor": "عمارة {b}، الدور {f}، شقة {a} · {s}"
+  },
+  "past": {
+   "title": "طلب سابق",
+   "rate": "قيّم هذا الطلب",
+   "rated": "تقييمك",
+   "thanks": "شكرًا. يمكنك تغييره في أي وقت.",
+   "total": "الإجمالي",
+   "report": "الإبلاغ عن مشكلة",
+   "chip": "قيّم",
+   "again": "اطلب مرة أخرى"
+  },
+  "account": {
+   "title": "الحساب",
+   "lang": "اللغة",
+   "dark": "الوضع الداكن",
+   "notif": "تحديثات الطلبات",
+   "addr": "العناوين",
+   "help": "المساعدة",
+   "logout": "تسجيل الخروج",
+   "privacy": "سياسة الخصوصية",
+   "delete": "حذف الحساب",
+   "delTitle": "حذف حسابك؟",
+   "delBody": "سيتم حذف تسجيل الدخول والاسم والرقم والعناوين والصور نهائيًا. الطلبات التي لم تُستلم بعد ستُلغى. الطلبات السابقة تبقى في سجلات المحلات بدون بياناتك.",
+   "delYes": "احذف نهائيًا",
+   "delNo": "أبقِ حسابي",
+   "delBusy": "ملابسك ما زالت مع المحل. يمكنك حذف الحساب بعد تسليم هذا الطلب.",
+   "delShop": "حسابات المحلات تغلقها إكويلي. تواصل معنا من فضلك.",
+   "deleted": "تم حذف حسابك.",
+   "demoReset": "إعادة ضبط البيانات التجريبية"
+  },
+  "toast": {
+   "addr": [
+    "تم تحديث العنوان",
+    "سيوصّل {s} إلى عنوانك الجديد."
+   ],
+   "rated": [
+    "شكرًا على تقييمك",
+    "يساعد تقييمك العملاء الآخرين على اختيار المحل."
+   ],
+   "picked": [
+    "تم استلام الحقيبة",
+    "استلم {g} حقيبتك وهي في الطريق إلى {s}."
+   ],
+   "counted": [
+    "العدد مطابق",
+    "وجد {s} قطعك الـ {n} وبدأ الكي. الإجمالي {a}."
+   ],
+   "problem": [
+    "العدد غير مطابق",
+    "سجّلت {l} قطعة ووجد {s} {m}. سيتصل بك."
+   ],
+   "resolved": [
+    "استُؤنف الكي",
+    "اتفقتما على {n} قطعة. الإجمالي الجديد {a}."
+   ],
+   "ready": [
+    "ملابسك جاهزة",
+    "تخرج في الجولة القادمة، 7:00–9:00 ص."
+   ],
+   "out": [
+    "في الطريق",
+    "{g} في الطريق بملابسك."
+   ],
+   "delivered": [
+    "تم التسليم",
+    "قيّم طلبك مع {s}."
+   ],
+   "resent": [
+    "تم إرسال الرمز",
+    "تفقد رسائلك للرمز الجديد."
+   ],
+   "paid": [
+    "تم الدفع",
+    "تم دفع {a} بالبطاقة."
+   ]
+  },
+  "common": {
+   "retry": "حاول مرة أخرى",
+   "error": "حدث خطأ. تحقق من الاتصال وحاول مرة أخرى.",
+   "soon": "الدفع بالبطاقة قريبًا. يمكنك الدفع نقدًا عند الاستلام."
+  }
+ }
+}

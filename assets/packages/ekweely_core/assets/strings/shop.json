@@ -1,0 +1,884 @@
+{
+ "en": {
+  "dir": "ltr",
+  "arrow": "←",
+  "chev": "›",
+  "cur": "EGP",
+  "now": "now",
+  "skip": "Skip",
+  "next": "Next",
+  "start": "Get started",
+  "nav": [
+   "Today",
+   "Orders",
+   "Earnings",
+   "Shop"
+  ],
+  "items": {
+   "shirt": "Shirts",
+   "trousers": "Trousers",
+   "galabeya": "Galabeya",
+   "sheet": "Bedsheets",
+   "suit": "Suit jackets"
+  },
+  "onb": [
+   {
+    "title": "Choose your shop",
+    "body": "Every neighborhood shop sets its own prices and turnaround. Pick the one you trust.",
+    "slot": "illustration:\nchoose your shop"
+   },
+   {
+    "title": "Count, then hand over",
+    "body": "Tell us how many pieces are in the bag. The shop recounts on arrival and starts ironing. They only call if the numbers don't match.",
+    "slot": "illustration:\ncount and hand over"
+   },
+   {
+    "title": "Pay however you like",
+    "body": "Cash on delivery or card, whichever is easiest for you that day.",
+    "slot": "illustration:\npay your way"
+   }
+  ],
+  "login": {
+   "title": "Welcome back",
+   "sub": "Log in with your mobile number.",
+   "phone": "Mobile number",
+   "pass": "Password",
+   "passPh": "Your password",
+   "forgot": "Forgot password?",
+   "cta": "Log in",
+   "no": "New here?",
+   "link": "Sign up",
+   "err": "Check your number and password"
+  },
+  "first": {
+   "badge": "Shop account",
+   "title": "Welcome, Am Sayed",
+   "sub": "Ekweely set up this account for your shop. Choose your own password to replace the temporary one.",
+   "rows": [
+    {
+     "k": "Shop",
+     "v": "Am Sayed's Shop"
+    },
+    {
+     "k": "Area",
+     "v": "Zamalek · 26th of July St."
+    },
+    {
+     "k": "Phone",
+     "v": "+20 12 2345 6789"
+    }
+   ],
+   "wrong": "Details not right?",
+   "contact": "Contact Ekweely",
+   "p1": "New password",
+   "p1Ph": "At least 8 characters",
+   "p2": "Confirm password",
+   "p2Ph": "Type it again",
+   "err": "Passwords must match and be at least 8 characters",
+   "cta": "Save and continue"
+  },
+  "intro": [
+   {
+    "title": "Pickups come through the app",
+    "body": "Customers request a pickup from your shop and tell you how many pieces are in the bag. Your delivery guy collects on your two daily rounds.",
+    "slot": "illustration:\ndelivery guy\ncollecting a bag"
+   },
+   {
+    "title": "Check the count, then iron",
+    "body": "Compare the bag with the customer's count. If it matches, one tap starts ironing. Only call the customer if it doesn't.",
+    "slot": "illustration:\nchecking a bag"
+   },
+   {
+    "title": "Ready bags go out",
+    "body": "Mark an order ready and your delivery guy takes it back on the next round. Ekweely pays you every week.",
+    "slot": "illustration:\nfolded stack\nin a bag"
+   }
+  ],
+  "stepOf": "{n} of 5",
+  "alerts": {
+   "title": "Never miss a pickup",
+   "sub": "This is how the shop hears about new work.",
+   "body": "We alert you when a customer requests a pickup, and when an order needs you.",
+   "yes": "Enable alerts",
+   "no": "Maybe later"
+  },
+  "review": {
+   "title": "Check your shop details",
+   "sub": "Ekweely filled these in when your account was created. Make sure they match what you charge.",
+   "prices": "Prices",
+   "work": "How you work",
+   "rows": [
+    {
+     "k": "Pickup rounds",
+     "v": "Morning & evening"
+    },
+    {
+     "k": "Daily capacity",
+     "v": "60 pieces"
+    }
+   ],
+   "cta": "Looks right",
+   "change": "Something to change? Contact Ekweely"
+  },
+  "ready": {
+   "title": "You're ready, Am Sayed",
+   "body": "Your shop is live. Customers can now request pickups from you.",
+   "cta": "Go to today"
+  },
+  "today": {
+   "shop": "Am Sayed's Shop",
+   "greet": "Good evening, Am Sayed",
+   "open": "Open",
+   "paused": "Paused",
+   "pickLabel": "Evening pickups · 5:30–7:00 PM",
+   "pickTitle": "{n} customers waiting",
+   "pickSub": "Send the list to Mahmoud and mark each bag as he collects it.",
+   "pickCta": "Open pickup list",
+   "countLabel": "Back at the shop",
+   "countTitle": "{n} bags to check",
+   "countSub": "Compare each bag with the customer's count.",
+   "countCta": "Start checking",
+   "doneLabel": "Evening round",
+   "doneTitle": "All caught up",
+   "doneSub": "No bags waiting to be picked up or checked.",
+   "doneCta": "View orders",
+   "tiles": [
+    "To check",
+    "Ironing",
+    "Ready"
+   ],
+   "holdTitle": "Order {no} on hold",
+   "holdSub": "{name} listed {l}, you found {f}",
+   "resolve": "Resolve",
+   "readyTitle": "{n} bags ready",
+   "readySub": "Morning delivery round · 7:00 AM",
+   "readyCta": "Deliveries",
+   "pausedNote": "Customers can't request pickups while you're paused."
+  },
+  "pick": {
+   "title": "Pickup requests",
+   "sub": "Evening round · 5:30–7:00 PM",
+   "note": "Mahmoud has no app. Send him the list, then tap each stop when he tells you the bag is collected. The customer is notified.",
+   "call": "Call",
+   "map": "Map",
+   "act": "Picked up",
+   "done": "Picked up ✓",
+   "listed": "{n} pieces",
+   "share": "Send list to Mahmoud on WhatsApp",
+   "sum": "Collected",
+   "empty": "No pickup requests right now."
+  },
+  "count": {
+   "title": "Order {no}",
+   "sub": "Collected by Mahmoud",
+   "chip": "Checking",
+   "call": "Call",
+   "line": "{name} listed {n} pieces. Change any line that doesn't match the bag.",
+   "listed": "listed {n}",
+   "diff": "listed {n} · check",
+   "sumLine": "Listed {l} · found",
+   "match": "Matches · start ironing",
+   "mis": "Doesn't match · report"
+  },
+  "problem": {
+   "title": "Count doesn't match",
+   "sub": "Order {no} · {name}",
+   "calm": "{name} listed {l} pieces; you found {f}. Ironing waits on this order until you agree. Your other orders aren't affected.",
+   "opts": [
+    "Fewer pieces than listed",
+    "More pieces than listed",
+    "Damaged or stained on arrival",
+    "Something else"
+   ],
+   "noteLabel": "Note for the customer",
+   "notePh": "The bag had 13 pieces, not 14. One shirt may still be at home.",
+   "call": "Call {name}",
+   "hold": "Put on hold, call later"
+  },
+  "resolve": {
+   "title": "Order {no}",
+   "sub": "{name} · on hold",
+   "chip": "On hold",
+   "reportLabel": "You reported",
+   "report": "Listed {l} · found {f}",
+   "outLabel": "What did you agree with {name}?",
+   "opts": [
+    {
+     "label": "Iron the {f} pieces",
+     "sub": "Price updates to {f} pieces"
+    },
+    {
+     "label": "Customer sends the rest next round",
+     "sub": "Iron what arrived now"
+    },
+    {
+     "label": "Return the bag unironed",
+     "sub": "No charge"
+    }
+   ],
+   "cta": "Resume ironing · notify {name}",
+   "ctaReturn": "Return bag · notify {name}",
+   "call": "Call {name} again"
+  },
+  "orders": {
+   "title": "Orders",
+   "tabs": [
+    "To check",
+    "Ironing",
+    "Ready"
+   ],
+   "check": "Check",
+   "resolve": "Resolve",
+   "ready": "Mark ready",
+   "deliv": "Deliveries",
+   "empty": "Nothing here right now.",
+   "meta": {
+    "tocount": "{n} pieces listed · collected",
+    "hold": "On hold · listed {l}, found {f}",
+    "ironing": "{n} pieces · {a}",
+    "ready": "{n} pieces · {a}",
+    "out": "With Mahmoud · {a}"
+   }
+  },
+  "deliv": {
+   "title": "Deliveries",
+   "sub": "Morning round · 7:00 AM",
+   "note": "Tap each stop when Mahmoud hands the bag over. For cash orders this also records the cash he collected.",
+   "start": "Start round · send list to Mahmoud",
+   "call": "Call",
+   "map": "Map",
+   "act": "Delivered",
+   "done": "Delivered ✓",
+   "card": "Paid by card",
+   "cash": "{a} cash",
+   "sum": "Cash Mahmoud brings back",
+   "empty": "No bags ready yet. Mark orders ready from the Ironing tab."
+  },
+  "earn": {
+   "title": "Earnings",
+   "period": "This week",
+   "sub": "{n} orders · Ekweely fee already taken out",
+   "days": [
+    "Sat",
+    "Sun",
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "payTitle": "Next payout",
+   "payDate": "Sunday, 27 September",
+   "paySub": "Bank transfer from Ekweely",
+   "recent": "Recent orders",
+   "today": "{n} pieces · today",
+   "rec": [
+    {
+     "a": "Order 1036",
+     "b": "11 pieces · yesterday",
+     "c": "198 EGP"
+    },
+    {
+     "a": "Order 1035",
+     "b": "5 pieces · yesterday",
+     "c": "96 EGP"
+    }
+   ]
+  },
+  "avail": {
+   "title": "Availability",
+   "sub": "Set your rounds day by day",
+   "days": [
+    "Sat",
+    "Sun",
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "full": [
+    "Today, Saturday",
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "modes": [
+    "Both rounds",
+    "Morning only",
+    "Evening only",
+    "Closed"
+   ],
+   "rounds": {
+    "m": [
+     "Morning round",
+     "9:00–11:00 AM"
+    ],
+    "e": [
+     "Evening round",
+     "5:30–7:00 PM"
+    ]
+   },
+   "pick": "Pickups",
+   "pickSub": "Mahmoud collects new bags",
+   "del": "Deliveries",
+   "delSub": "Mahmoud returns ready orders",
+   "closed": "No rounds this day. Customers can't request pickups from you.",
+   "note": "Customers only see the rounds you open. Turn off deliveries to make a round pickup only.",
+   "all": "Use this for every day",
+   "sum": {
+    "both": "Both rounds",
+    "m": "Morning only",
+    "e": "Evening only",
+    "off": "Closed"
+   }
+  },
+  "pw": [
+   "Show",
+   "Hide"
+  ],
+  "profile": {
+   "openSub": "Customers can request pickup from you",
+   "title": "Your shop",
+   "managed": "Account managed by Ekweely",
+   "prices": "Your prices",
+   "settings": "Settings",
+   "cap": "Daily capacity",
+   "capV": "60 pieces",
+   "rounds": "Pickup rounds",
+   "roundsV": "Both",
+   "lang": "Language",
+   "dark": "Dark mode",
+   "contact": "Contact Ekweely",
+   "logout": "Log out",
+   "demoReset": "Reset demo data"
+  },
+  "toast": {
+   "addr": [
+    "Address changed",
+    "{name} updated the address for order {no}."
+   ],
+   "availAll": [
+    "Saved for every day",
+    "Same rounds all week."
+   ],
+   "newReq": [
+    "New pickup request",
+    "{name} · {n} pieces · evening round"
+   ],
+   "sent": [
+    "List sent",
+    "Mahmoud has the stops on WhatsApp."
+   ],
+   "picked": [
+    "Customer notified",
+    "{name} knows the bag was collected."
+   ],
+   "ironing": [
+    "Ironing started",
+    "{name} was notified."
+   ],
+   "hold": [
+    "Order on hold",
+    "{name} was told you'll call about the count."
+   ],
+   "resumed": [
+    "Ironing resumed",
+    "{name} was notified of the new total."
+   ],
+   "returned": [
+    "Bag returned",
+    "{name} was notified. No charge."
+   ],
+   "ready": [
+    "Marked ready",
+    "Order {no} goes out on the next round."
+   ],
+   "round": [
+    "Round started",
+    "Customers were told their clothes are on the way."
+   ],
+   "delivered": [
+    "Delivered",
+    "Order {no} closed."
+   ],
+   "paid": [
+    "Customer paid by card",
+    "Order {no} · {a}"
+   ]
+  },
+  "tasks": {
+   "menu": "Menu",
+   "earnings": "Earnings",
+   "shop": "Your shop",
+   "demo": "Demo · fake orders",
+   "hold": "Call about the count",
+   "holdMeta": "Customer listed {l} · you found {f}",
+   "resolve": "Resolve",
+   "pick": "Pick up",
+   "send": "Send list",
+   "pieces": "{n} pieces",
+   "picked": "Picked up",
+   "count": "Check the count",
+   "countAct": "Check count",
+   "iron": "Ironing",
+   "readyAct": "Mark ready",
+   "deliver": "Deliver",
+   "start": "Start round · {n} bags",
+   "waiting": "Goes out on the next round",
+   "delivered": "Delivered",
+   "cash": "Collect {a} cash",
+   "returned": "Return the bag · no charge",
+   "doneTitle": "All done for now",
+   "doneSub": "New pickup requests show up here by themselves.",
+   "countTab": "Count",
+   "none": "Nothing here right now",
+   "phonePh": "01XXXXXXXXX",
+   "demoHint": "Demo: any number and password work."
+  }
+ },
+ "ar": {
+  "dir": "rtl",
+  "arrow": "→",
+  "chev": "‹",
+  "cur": "ج.م",
+  "now": "الآن",
+  "skip": "تخطي",
+  "next": "التالي",
+  "start": "لنبدأ",
+  "nav": [
+   "اليوم",
+   "الطلبات",
+   "الأرباح",
+   "المحل"
+  ],
+  "items": {
+   "shirt": "قمصان",
+   "trousers": "بناطيل",
+   "galabeya": "جلابيات",
+   "sheet": "ملاءات",
+   "suit": "جواكت بدل"
+  },
+  "onb": [
+   {
+    "title": "اختر محلك",
+    "body": "كل محل في الحي يحدد أسعاره ومواعيده. اختر المحل الذي تثق به.",
+    "slot": "illustration:\nchoose your shop"
+   },
+   {
+    "title": "عُدّ ثم سلّم",
+    "body": "أخبرنا بعدد القطع في الحقيبة. يعيد المحل العد عند الوصول ويبدأ الكي، ولا يتصل بك إلا إذا اختلف العدد.",
+    "slot": "illustration:\ncount and hand over"
+   },
+   {
+    "title": "ادفع كما تحب",
+    "body": "نقدًا عند الاستلام أو بالبطاقة، الأسهل لك في ذلك اليوم.",
+    "slot": "illustration:\npay your way"
+   }
+  ],
+  "login": {
+   "title": "مرحبًا بعودتك",
+   "sub": "سجّل الدخول برقم موبايلك.",
+   "phone": "رقم الموبايل",
+   "pass": "كلمة المرور",
+   "passPh": "كلمة المرور",
+   "forgot": "نسيت كلمة المرور؟",
+   "cta": "تسجيل الدخول",
+   "no": "مستخدم جديد؟",
+   "link": "إنشاء حساب",
+   "err": "راجع الرقم وكلمة المرور"
+  },
+  "first": {
+   "badge": "حساب محل",
+   "title": "أهلًا يا عم سيد",
+   "sub": "أنشأت إكويلي هذا الحساب لمحلك. اختر كلمة مرور خاصة بك بدل كلمة المرور المؤقتة.",
+   "rows": [
+    {
+     "k": "المحل",
+     "v": "محل عم سيد"
+    },
+    {
+     "k": "المنطقة",
+     "v": "الزمالك · شارع 26 يوليو"
+    },
+    {
+     "k": "الهاتف",
+     "v": "+20 12 2345 6789"
+    }
+   ],
+   "wrong": "البيانات غير صحيحة؟",
+   "contact": "تواصل مع إكويلي",
+   "p1": "كلمة المرور الجديدة",
+   "p1Ph": "8 أحرف على الأقل",
+   "p2": "تأكيد كلمة المرور",
+   "p2Ph": "اكتبها مرة أخرى",
+   "err": "يجب أن تتطابق كلمتا المرور وألا تقل عن 8 أحرف",
+   "cta": "حفظ ومتابعة"
+  },
+  "intro": [
+   {
+    "title": "طلبات الاستلام تصلك عبر التطبيق",
+    "body": "يطلب العملاء الاستلام من محلك ويخبرونك بعدد القطع في الحقيبة. يجمع عامل التوصيل لديك الحقائب في جولتيك اليوميتين.",
+    "slot": "illustration:\ndelivery guy\ncollecting a bag"
+   },
+   {
+    "title": "راجع العدد ثم اكوِ",
+    "body": "قارن الحقيبة بعدد العميل. إذا تطابق، ضغطة واحدة تبدأ الكي. اتصل بالعميل فقط إذا اختلف العدد.",
+    "slot": "illustration:\nchecking a bag"
+   },
+   {
+    "title": "الحقائب الجاهزة تخرج",
+    "body": "حدّد الطلب كجاهز ليعيده عامل التوصيل لديك في الجولة التالية. تدفع لك إكويلي كل أسبوع.",
+    "slot": "illustration:\nfolded stack\nin a bag"
+   }
+  ],
+  "stepOf": "{n} من 5",
+  "alerts": {
+   "title": "لا يفوتك أي طلب",
+   "sub": "هكذا يعرف المحل بوجود عمل جديد.",
+   "body": "ننبهك عندما يطلب عميل الاستلام، وعندما يحتاجك طلب ما.",
+   "yes": "تفعيل التنبيهات",
+   "no": "ربما لاحقًا"
+  },
+  "review": {
+   "title": "راجع بيانات محلك",
+   "sub": "أدخلت إكويلي هذه البيانات عند إنشاء حسابك. تأكد أنها تطابق أسعارك.",
+   "prices": "الأسعار",
+   "work": "طريقة عملك",
+   "rows": [
+    {
+     "k": "جولات الاستلام",
+     "v": "الصباح والمساء"
+    },
+    {
+     "k": "السعة اليومية",
+     "v": "60 قطعة"
+    }
+   ],
+   "cta": "البيانات صحيحة",
+   "change": "تريد تغيير شيء؟ تواصل مع إكويلي"
+  },
+  "ready": {
+   "title": "أنت جاهز يا عم سيد",
+   "body": "محلك يعمل الآن. يمكن للعملاء طلب الاستلام منك.",
+   "cta": "اذهب إلى اليوم"
+  },
+  "today": {
+   "shop": "محل عم سيد",
+   "greet": "مساء الخير يا عم سيد",
+   "open": "مفتوح",
+   "paused": "متوقف",
+   "pickLabel": "استلام المساء · 5:30–7:00 م",
+   "pickTitle": "{n} عملاء بالانتظار",
+   "pickSub": "أرسل القائمة لمحمود وحدّد كل حقيبة عند استلامها.",
+   "pickCta": "افتح قائمة الاستلام",
+   "countLabel": "وصلت إلى المحل",
+   "countTitle": "{n} حقائب للمراجعة",
+   "countSub": "قارن كل حقيبة بعدد العميل.",
+   "countCta": "ابدأ المراجعة",
+   "doneLabel": "جولة المساء",
+   "doneTitle": "لا شيء بالانتظار",
+   "doneSub": "لا توجد حقائب للاستلام أو المراجعة.",
+   "doneCta": "عرض الطلبات",
+   "tiles": [
+    "للمراجعة",
+    "قيد الكي",
+    "جاهز"
+   ],
+   "holdTitle": "طلب {no} معلّق",
+   "holdSub": "سجّل {name} {l}، ووجدت {f}",
+   "resolve": "حل",
+   "readyTitle": "{n} حقائب جاهزة",
+   "readySub": "جولة توصيل الصباح · 7:00 ص",
+   "readyCta": "التوصيل",
+   "pausedNote": "لا يمكن للعملاء طلب الاستلام أثناء التوقف."
+  },
+  "pick": {
+   "title": "طلبات الاستلام",
+   "sub": "جولة المساء · 5:30–7:00 م",
+   "note": "محمود ليس لديه تطبيق. أرسل له القائمة، ثم اضغط على كل عنوان عندما يخبرك أنه استلم الحقيبة. يصل للعميل إشعار.",
+   "call": "اتصال",
+   "map": "خريطة",
+   "act": "تم الاستلام",
+   "done": "تم الاستلام ✓",
+   "listed": "{n} قطعة",
+   "share": "أرسل القائمة لمحمود على واتساب",
+   "sum": "تم استلامها",
+   "empty": "لا توجد طلبات استلام الآن."
+  },
+  "count": {
+   "title": "طلب {no}",
+   "sub": "استلمه محمود",
+   "chip": "مراجعة",
+   "call": "اتصال",
+   "line": "سجّل {name} {n} قطعة. عدّل أي سطر لا يطابق الحقيبة.",
+   "listed": "مسجل {n}",
+   "diff": "مسجل {n} · راجع",
+   "sumLine": "مسجل {l} · موجود",
+   "match": "مطابق · ابدأ الكي",
+   "mis": "غير مطابق · إبلاغ"
+  },
+  "problem": {
+   "title": "العدد غير مطابق",
+   "sub": "طلب {no} · {name}",
+   "calm": "سجّل {name} {l} قطعة ووجدت {f}. يتوقف كي هذا الطلب حتى تتفقا. طلباتك الأخرى لا تتأثر.",
+   "opts": [
+    "قطع أقل من المسجل",
+    "قطع أكثر من المسجل",
+    "تالف أو به بقع عند الوصول",
+    "شيء آخر"
+   ],
+   "noteLabel": "ملاحظة للعميل",
+   "notePh": "الحقيبة فيها 13 قطعة وليس 14. ربما بقي قميص في المنزل.",
+   "call": "اتصل بـ {name}",
+   "hold": "علّق الطلب واتصل لاحقًا"
+  },
+  "resolve": {
+   "title": "طلب {no}",
+   "sub": "{name} · معلّق",
+   "chip": "معلّق",
+   "reportLabel": "أبلغت عن",
+   "report": "مسجل {l} · موجود {f}",
+   "outLabel": "ماذا اتفقت مع {name}؟",
+   "opts": [
+    {
+     "label": "كيّ الـ {f} قطعة",
+     "sub": "يُحدَّث السعر إلى {f} قطعة"
+    },
+    {
+     "label": "يرسل العميل الباقي في الجولة القادمة",
+     "sub": "اكوِ ما وصل الآن"
+    },
+    {
+     "label": "إرجاع الحقيبة بدون كي",
+     "sub": "بدون رسوم"
+    }
+   ],
+   "cta": "استئناف الكي · إبلاغ {name}",
+   "ctaReturn": "إرجاع الحقيبة · إبلاغ {name}",
+   "call": "اتصل بـ {name} مرة أخرى"
+  },
+  "orders": {
+   "title": "الطلبات",
+   "tabs": [
+    "للمراجعة",
+    "قيد الكي",
+    "جاهز"
+   ],
+   "check": "راجع",
+   "resolve": "حل",
+   "ready": "جاهز للتسليم",
+   "deliv": "التوصيل",
+   "empty": "لا شيء هنا الآن.",
+   "meta": {
+    "tocount": "{n} قطعة مسجلة · تم الاستلام",
+    "hold": "معلّق · مسجل {l}، موجود {f}",
+    "ironing": "{n} قطعة · {a}",
+    "ready": "{n} قطعة · {a}",
+    "out": "مع محمود · {a}"
+   }
+  },
+  "deliv": {
+   "title": "التوصيل",
+   "sub": "جولة الصباح · 7:00 ص",
+   "note": "اضغط على كل عنوان عندما يسلّم محمود الحقيبة. في الطلبات النقدية يسجّل هذا أيضًا المبلغ الذي استلمه.",
+   "start": "ابدأ الجولة · أرسل القائمة لمحمود",
+   "call": "اتصال",
+   "map": "خريطة",
+   "act": "تم التسليم",
+   "done": "تم التسليم ✓",
+   "card": "مدفوع بالبطاقة",
+   "cash": "{a} نقدًا",
+   "sum": "النقدية المطلوبة من محمود",
+   "empty": "لا توجد حقائب جاهزة بعد. حدّد الطلبات كجاهزة من تبويب قيد الكي."
+  },
+  "earn": {
+   "title": "الأرباح",
+   "period": "هذا الأسبوع",
+   "sub": "{n} طلبًا · بعد خصم رسوم إكويلي",
+   "days": [
+    "سبت",
+    "أحد",
+    "إثن",
+    "ثلا",
+    "أرب",
+    "خمي",
+    "جمع"
+   ],
+   "payTitle": "الدفعة القادمة",
+   "payDate": "الأحد 27 سبتمبر",
+   "paySub": "تحويل بنكي من إكويلي",
+   "recent": "أحدث الطلبات",
+   "today": "{n} قطعة · اليوم",
+   "rec": [
+    {
+     "a": "طلب 1036",
+     "b": "11 قطعة · أمس",
+     "c": "198 ج.م"
+    },
+    {
+     "a": "طلب 1035",
+     "b": "5 قطع · أمس",
+     "c": "96 ج.م"
+    }
+   ]
+  },
+  "avail": {
+   "title": "مواعيد العمل",
+   "sub": "حدد جولاتك يومًا بيوم",
+   "days": [
+    "سبت",
+    "أحد",
+    "إثنين",
+    "ثلاثاء",
+    "أربعاء",
+    "خميس",
+    "جمعة"
+   ],
+   "full": [
+    "اليوم، السبت",
+    "الأحد",
+    "الإثنين",
+    "الثلاثاء",
+    "الأربعاء",
+    "الخميس",
+    "الجمعة"
+   ],
+   "modes": [
+    "الجولتان",
+    "الصباح فقط",
+    "المساء فقط",
+    "مغلق"
+   ],
+   "rounds": {
+    "m": [
+     "جولة الصباح",
+     "9:00–11:00 ص"
+    ],
+    "e": [
+     "جولة المساء",
+     "5:30–7:00 م"
+    ]
+   },
+   "pick": "الاستلام",
+   "pickSub": "يجمع محمود الحقائب الجديدة",
+   "del": "التوصيل",
+   "delSub": "يوصّل محمود الطلبات الجاهزة",
+   "closed": "لا جولات في هذا اليوم. لن يستطيع العملاء طلب استلام منك.",
+   "note": "يرى العملاء الجولات التي تفتحها فقط. أوقف التوصيل لتجعل الجولة للاستلام فقط.",
+   "all": "طبّق على كل الأيام",
+   "sum": {
+    "both": "الجولتان",
+    "m": "الصباح فقط",
+    "e": "المساء فقط",
+    "off": "مغلق"
+   }
+  },
+  "pw": [
+   "إظهار",
+   "إخفاء"
+  ],
+  "profile": {
+   "openSub": "يمكن للعملاء طلب الاستلام منك",
+   "title": "محلك",
+   "managed": "حساب تديره إكويلي",
+   "prices": "أسعارك",
+   "settings": "الإعدادات",
+   "cap": "السعة اليومية",
+   "capV": "60 قطعة",
+   "rounds": "جولات الاستلام",
+   "roundsV": "الاثنتان",
+   "lang": "اللغة",
+   "dark": "الوضع الداكن",
+   "contact": "تواصل مع إكويلي",
+   "logout": "تسجيل الخروج",
+   "demoReset": "إعادة ضبط البيانات التجريبية"
+  },
+  "toast": {
+   "addr": [
+    "تغيّر العنوان",
+    "غيّر {name} عنوان الطلب {no}."
+   ],
+   "availAll": [
+    "تم الحفظ",
+    "نفس الجولات لكل أيام الأسبوع."
+   ],
+   "newReq": [
+    "طلب استلام جديد",
+    "{name} · {n} قطعة · جولة المساء"
+   ],
+   "sent": [
+    "تم إرسال القائمة",
+    "وصلت العناوين لمحمود على واتساب."
+   ],
+   "picked": [
+    "تم إشعار العميل",
+    "يعرف {name} أن الحقيبة استُلمت."
+   ],
+   "ironing": [
+    "بدأ الكي",
+    "تم إشعار {name}."
+   ],
+   "hold": [
+    "الطلب معلّق",
+    "أُبلغ {name} أنك ستتصل بخصوص العدد."
+   ],
+   "resumed": [
+    "استُؤنف الكي",
+    "تم إشعار {name} بالإجمالي الجديد."
+   ],
+   "returned": [
+    "أُعيدت الحقيبة",
+    "تم إشعار {name}. بدون رسوم."
+   ],
+   "ready": [
+    "جاهز",
+    "يخرج طلب {no} في الجولة القادمة."
+   ],
+   "round": [
+    "بدأت الجولة",
+    "أُبلغ العملاء أن ملابسهم في الطريق."
+   ],
+   "delivered": [
+    "تم التسليم",
+    "أُغلق طلب {no}."
+   ],
+   "paid": [
+    "دفع العميل بالبطاقة",
+    "طلب {no} · {a}"
+   ]
+  },
+  "tasks": {
+   "menu": "القائمة",
+   "earnings": "الأرباح",
+   "shop": "محلك",
+   "demo": "تجريبي · طلبات وهمية",
+   "hold": "اتصل بخصوص العدد",
+   "holdMeta": "العميل كتب {l} · وجدت {f}",
+   "resolve": "حلّ المشكلة",
+   "pick": "الاستلام",
+   "send": "أرسل القائمة",
+   "pieces": "{n} قطعة",
+   "picked": "تم الاستلام",
+   "count": "مراجعة العدد",
+   "countAct": "راجع العدد",
+   "iron": "قيد الكي",
+   "readyAct": "جاهز",
+   "deliver": "التوصيل",
+   "start": "ابدأ الجولة · {n} حقائب",
+   "waiting": "يخرج في الجولة القادمة",
+   "delivered": "تم التسليم",
+   "cash": "حصّل {a} نقدًا",
+   "returned": "إرجاع الحقيبة · بدون رسوم",
+   "doneTitle": "لا شيء بالانتظار الآن",
+   "doneSub": "طلبات الاستلام الجديدة تظهر هنا تلقائيًا.",
+   "countTab": "العدد",
+   "none": "لا شيء هنا الآن",
+   "phonePh": "01XXXXXXXXX",
+   "demoHint": "تجريبي: أي رقم وكلمة مرور تعمل."
+  }
+ }
+}

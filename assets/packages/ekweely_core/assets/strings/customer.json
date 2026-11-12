@@ -529,6 +529,22 @@
     "empty": "No order in progress",
     "sub": "Request a pickup and follow it here.",
     "cta": "Request pickup"
+   },
+   "card": {
+    "title": "Pay with card",
+    "saved": "Saved cards",
+    "newCard": "New card",
+    "number": "Card number",
+    "name": "Name on card",
+    "namePh": "As printed on the card",
+    "exp": "Expiry",
+    "cvv": "CVV",
+    "cvvPh": "3 digits",
+    "save": "Save this card for next time",
+    "use": "Use this card",
+    "secure": "Your card details go straight to the payment provider. Ekweely never stores your full card number or CVV.",
+    "enterCvv": "Enter the security code for this card.",
+    "remove": "Remove"
    }
   }
  },
@@ -1062,6 +1078,22 @@
     "empty": "لا يوجد طلب جارٍ",
     "sub": "اطلب استلام وتابعه من هنا.",
     "cta": "اطلب استلام"
+   },
+   "card": {
+    "title": "الدفع بالبطاقة",
+    "saved": "البطاقات المحفوظة",
+    "newCard": "بطاقة جديدة",
+    "number": "رقم البطاقة",
+    "name": "الاسم على البطاقة",
+    "namePh": "كما هو مكتوب على البطاقة",
+    "exp": "تاريخ الانتهاء",
+    "cvv": "رمز الأمان CVV",
+    "cvvPh": "3 أرقام",
+    "save": "احفظ البطاقة للمرة القادمة",
+    "use": "استخدم هذه البطاقة",
+    "secure": "تذهب بيانات بطاقتك مباشرة إلى مزوّد الدفع. إكويلي لا تحفظ رقم بطاقتك الكامل أو رمز CVV.",
+    "enterCvv": "أدخل رمز الأمان لهذه البطاقة.",
+    "remove": "إزالة"
    }
   }
  }

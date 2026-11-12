@@ -255,7 +255,7 @@
    "empty": "No bags ready yet. Mark orders ready from the Ironing tab."
   },
   "earn": {
-   "title": "Earnings",
+   "title": "Your earnings",
    "period": "This week",
    "sub": "{n} orders · Ekweely fee already taken out",
    "days": [
@@ -438,6 +438,16 @@
    "none": "Nothing here right now",
    "phonePh": "01XXXXXXXXX",
    "demoHint": "Demo: any number and password work."
+  },
+  "v3": {
+   "express": "Express",
+   "expressNote": "Same-day return",
+   "today": {
+    "t1": "Today's",
+    "t2": "orders"
+   },
+   "expressRow": "Express (same day)",
+   "offered": "Offered"
   }
  },
  "ar": {
@@ -696,7 +706,7 @@
    "empty": "لا توجد حقائب جاهزة بعد. حدّد الطلبات كجاهزة من تبويب قيد الكي."
   },
   "earn": {
-   "title": "الأرباح",
+   "title": "أرباحك",
    "period": "هذا الأسبوع",
    "sub": "{n} طلبًا · بعد خصم رسوم إكويلي",
    "days": [
@@ -879,6 +889,16 @@
    "none": "لا شيء هنا الآن",
    "phonePh": "01XXXXXXXXX",
    "demoHint": "تجريبي: أي رقم وكلمة مرور تعمل."
+  },
+  "v3": {
+   "express": "Express",
+   "expressNote": "يعود اليوم",
+   "today": {
+    "t1": "طلبات",
+    "t2": "اليوم"
+   },
+   "expressRow": "Express (نفس اليوم)",
+   "offered": "متاح"
   }
  }
 }

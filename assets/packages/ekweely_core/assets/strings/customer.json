@@ -8,7 +8,7 @@
   "nav": [
    "Home",
    "Orders",
-   "Shops",
+   "Repeat",
    "Account"
   ],
   "items": {
@@ -289,7 +289,7 @@
    "home": "Back to home"
   },
   "orders": {
-   "title": "Orders",
+   "title": "Your orders",
    "current": "Current",
    "past": "Past",
    "delivered": "Delivered",
@@ -308,7 +308,7 @@
    "pastNew": "Today · {n} pieces"
   },
   "addr": {
-   "title": "Address",
+   "title": "Pickup address",
    "sub": "Pickups and deliveries come to this address.",
    "street": "Street",
    "bld": "Building",
@@ -341,7 +341,7 @@
    "again": "Order again"
   },
   "account": {
-   "title": "Account",
+   "title": "Your account",
    "lang": "Language",
    "dark": "Dark mode",
    "notif": "Order updates",
@@ -409,6 +409,127 @@
    "retry": "Try again",
    "error": "Something went wrong. Check your connection and try again.",
    "soon": "Card payment is coming soon. You can pay cash on delivery."
+  },
+  "v3": {
+   "land": {
+    "title1": "Welcome to",
+    "title2": "Ekweely",
+    "sub": "Laundry and ironing, picked up and brought back to your door.",
+    "apple": "Continue with Apple",
+    "google": "Continue with Google",
+    "phone": "Continue with phone",
+    "terms": "By continuing you agree to our Terms and Privacy Policy.",
+    "have": "Already have an account?",
+    "login": "Log in",
+    "soon": "Apple and Google sign-in arrive with the live app.",
+    "or": "or"
+   },
+   "welcome": [
+    {
+     "t1": "Pick a",
+     "t2": "shop you trust",
+     "body": "Every shop sets its own price per piece and turnaround time."
+    },
+    {
+     "t1": "One tap,",
+     "t2": "we collect",
+     "body": "Choose a pickup round, add Express for same day, or repeat it every week."
+    },
+    {
+     "t1": "Pressed and",
+     "t2": "back at your door",
+     "body": "Track every step and pay by Apple Pay, card or cash on delivery."
+    }
+   ],
+   "home": {
+    "t1": "Pick a",
+    "t2": "shop",
+    "pills": [
+     "Nearest",
+     "Top rated",
+     "Express",
+     "Open now"
+    ],
+    "heroTitle": "Fresh, pressed, back at your door",
+    "heroSub": "Same-day Express and weekly repeats",
+    "express": "Express",
+    "min": "from {p} / piece",
+    "empty": "No shops match this filter."
+   },
+   "exp": {
+    "title": "Express",
+    "sub": "Same-day pickup and return",
+    "fee": "+{f}",
+    "note": "Extra fee set by Ekweely",
+    "badge": "Express · back today"
+   },
+   "rep": {
+    "t1": "Repeat",
+    "t2": "pickups",
+    "sub": "Set it once. We come every week.",
+    "empty": "No repeat plans yet",
+    "emptySub": "Pick a day and time and we collect and return your laundry automatically.",
+    "new": "New repeat plan",
+    "every": "Every {d}",
+    "back": "Back {r}",
+    "same": "the same day",
+    "next": "the next day",
+    "pause": "Pause",
+    "resume": "Resume",
+    "paused": "Paused",
+    "delete": "Cancel plan",
+    "days": [
+     "Mon",
+     "Tue",
+     "Wed",
+     "Thu",
+     "Fri",
+     "Sat",
+     "Sun"
+    ],
+    "dayLabel": "Which days?",
+    "roundLabel": "Pickup time",
+    "shopLabel": "Shop",
+    "save": "Save plan",
+    "note": "Morning pickups come back the same evening, evening pickups the next morning, Express the same day.",
+    "summary": "Pickup {d} · {t}",
+    "chargeNote": "Charged each week after the shop counts, until you cancel. Cancel any time in Repeat plans."
+   },
+   "pay": {
+    "title": "Payment",
+    "apple": "Apple Pay",
+    "applesub": "Pay with Face ID",
+    "card": "Debit or credit card",
+    "cardsub": "Visa, Mastercard, Meeza",
+    "cash": "Cash on delivery",
+    "cashsub": "Pay the courier on delivery",
+    "addcard": "Add a card",
+    "charged": "Paid online. You are charged the final price after the shop counts."
+   },
+   "cart": {
+    "repeat": "Repeat weekly",
+    "repeatSub": "Same day and time every week",
+    "subtotal": "Items",
+    "delivery": "Pickup & delivery",
+    "expressRow": "Express",
+    "total": "Total",
+    "backToday": "Back today",
+    "backTomorrow": "Back tomorrow",
+    "pcsEmpty": "Add at least one piece",
+    "pay": "How would you like to pay?",
+    "perPiece": "{p} / piece"
+   },
+   "acct": {
+    "payments": "Payment methods",
+    "payValue": "Apple Pay, card, cash",
+    "repeat": "Repeat plans",
+    "paymentsNote": "Your choice is used as the default at checkout. You can change it for any order."
+   },
+   "orders": {
+    "empty": "No order in progress",
+    "sub": "Request a pickup and follow it here.",
+    "cta": "Request pickup"
+   }
   }
  },
  "ar": {
@@ -420,7 +541,7 @@
   "nav": [
    "الرئيسية",
    "الطلبات",
-   "المحلات",
+   "التكرار",
    "الحساب"
   ],
   "items": {
@@ -701,7 +822,7 @@
    "home": "العودة للرئيسية"
   },
   "orders": {
-   "title": "الطلبات",
+   "title": "طلباتك",
    "current": "الحالي",
    "past": "السابقة",
    "delivered": "تم التسليم",
@@ -720,7 +841,7 @@
    "pastNew": "اليوم · {n} قطعة"
   },
   "addr": {
-   "title": "العنوان",
+   "title": "عنوان الاستلام",
    "sub": "يتم الاستلام والتوصيل على هذا العنوان.",
    "street": "الشارع",
    "bld": "العمارة",
@@ -753,7 +874,7 @@
    "again": "اطلب مرة أخرى"
   },
   "account": {
-   "title": "الحساب",
+   "title": "حسابك",
    "lang": "اللغة",
    "dark": "الوضع الداكن",
    "notif": "تحديثات الطلبات",
@@ -821,6 +942,127 @@
    "retry": "حاول مرة أخرى",
    "error": "حدث خطأ. تحقق من الاتصال وحاول مرة أخرى.",
    "soon": "الدفع بالبطاقة قريبًا. يمكنك الدفع نقدًا عند الاستلام."
+  },
+  "v3": {
+   "land": {
+    "title1": "أهلاً بك في",
+    "title2": "Ekweely",
+    "sub": "غسيل وكي، نستلمه ونعيده إلى بابك.",
+    "apple": "المتابعة مع Apple",
+    "google": "المتابعة مع Google",
+    "phone": "المتابعة برقم الموبايل",
+    "terms": "بالمتابعة فأنت توافق على الشروط وسياسة الخصوصية.",
+    "have": "لديك حساب؟",
+    "login": "تسجيل الدخول",
+    "soon": "تسجيل الدخول بـ Apple وGoogle يعمل في التطبيق الحقيقي.",
+    "or": "أو"
+   },
+   "welcome": [
+    {
+     "t1": "اختر",
+     "t2": "محلاً تثق به",
+     "body": "كل محل يحدد سعر القطعة ومدة التسليم الخاصة به."
+    },
+    {
+     "t1": "ضغطة واحدة،",
+     "t2": "ونحن نستلم",
+     "body": "اختر موعد الاستلام، وأضف Express لنفس اليوم، أو كرّره كل أسبوع."
+    },
+    {
+     "t1": "مكوي وعائد",
+     "t2": "إلى بابك",
+     "body": "تابع كل خطوة وادفع بـ Apple Pay أو بالبطاقة أو نقداً عند الاستلام."
+    }
+   ],
+   "home": {
+    "t1": "اختر",
+    "t2": "المحل",
+    "pills": [
+     "الأقرب",
+     "الأعلى تقييماً",
+     "Express",
+     "مفتوح الآن"
+    ],
+    "heroTitle": "نظيف ومكوي، وعائد إلى بابك",
+    "heroSub": "Express لنفس اليوم وتكرار أسبوعي",
+    "express": "Express",
+    "min": "من {p} للقطعة",
+    "empty": "لا توجد محلات تناسب هذا الفلتر."
+   },
+   "exp": {
+    "title": "Express",
+    "sub": "استلام وتسليم في نفس اليوم",
+    "fee": "+{f}",
+    "note": "رسوم إضافية يحددها Ekweely",
+    "badge": "Express · يعود اليوم"
+   },
+   "rep": {
+    "t1": "استلام",
+    "t2": "متكرر",
+    "sub": "اضبطه مرة واحدة ونأتي كل أسبوع.",
+    "empty": "لا توجد خطط متكررة بعد",
+    "emptySub": "اختر اليوم والوقت ونستلم غسيلك ونعيده تلقائياً.",
+    "new": "خطة متكررة جديدة",
+    "every": "كل {d}",
+    "back": "يعود {r}",
+    "same": "في نفس اليوم",
+    "next": "في اليوم التالي",
+    "pause": "إيقاف مؤقت",
+    "resume": "استئناف",
+    "paused": "متوقفة",
+    "delete": "إلغاء الخطة",
+    "days": [
+     "الإثنين",
+     "الثلاثاء",
+     "الأربعاء",
+     "الخميس",
+     "الجمعة",
+     "السبت",
+     "الأحد"
+    ],
+    "dayLabel": "أي الأيام؟",
+    "roundLabel": "وقت الاستلام",
+    "shopLabel": "المحل",
+    "save": "حفظ الخطة",
+    "note": "استلام الصباح يعود مساء اليوم نفسه، واستلام المساء يعود صباح اليوم التالي، وExpress في اليوم نفسه.",
+    "summary": "الاستلام {d} · {t}",
+    "chargeNote": "يُخصم كل أسبوع بعد عدّ المحل للقطع، حتى تلغي. يمكنك الإلغاء في أي وقت من خطط التكرار."
+   },
+   "pay": {
+    "title": "الدفع",
+    "apple": "Apple Pay",
+    "applesub": "الدفع بـ Face ID",
+    "card": "بطاقة خصم أو ائتمان",
+    "cardsub": "فيزا، ماستركارد، ميزة",
+    "cash": "نقداً عند الاستلام",
+    "cashsub": "ادفع للمندوب عند التسليم",
+    "addcard": "إضافة بطاقة",
+    "charged": "دفع إلكتروني. يُخصم السعر النهائي بعد أن يعدّ المحل القطع."
+   },
+   "cart": {
+    "repeat": "كرّر أسبوعياً",
+    "repeatSub": "نفس اليوم والوقت كل أسبوع",
+    "subtotal": "القطع",
+    "delivery": "الاستلام والتوصيل",
+    "expressRow": "Express",
+    "total": "الإجمالي",
+    "backToday": "يعود اليوم",
+    "backTomorrow": "يعود غداً",
+    "pcsEmpty": "أضف قطعة واحدة على الأقل",
+    "pay": "كيف تحب أن تدفع؟",
+    "perPiece": "{p} / للقطعة"
+   },
+   "acct": {
+    "payments": "طرق الدفع",
+    "payValue": "Apple Pay، بطاقة، نقداً",
+    "repeat": "الخطط المتكررة",
+    "paymentsNote": "اختيارك هو الافتراضي عند الدفع. يمكنك تغييره لأي طلب."
+   },
+   "orders": {
+    "empty": "لا يوجد طلب جارٍ",
+    "sub": "اطلب استلام وتابعه من هنا.",
+    "cta": "اطلب استلام"
+   }
   }
  }
 }

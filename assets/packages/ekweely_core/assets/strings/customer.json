@@ -79,7 +79,8 @@
    "demoCustomer": "Try as a customer",
    "demoShop": "Try as a shop owner",
    "demoReset": "Reset demo data",
-   "demoNote": "Demo mode: any password works."
+   "demoNote": "Demo mode: any password works.",
+   "demoCourier": "Try as a courier"
   },
   "prefs": {
    "title": "Stay in the loop",
@@ -545,6 +546,54 @@
     "secure": "Your card details go straight to the payment provider. Ekweely never stores your full card number or CVV.",
     "enterCvv": "Enter the security code for this card.",
     "remove": "Remove"
+   },
+   "avail": {
+    "notNow": "No pick up now",
+    "closedToday": "Closed today",
+    "opensAt": "Opens {t}",
+    "closedNow": "Closed for now",
+    "closedRound": "Closed for {r}",
+    "roundFull": "Full for {r}"
+   },
+   "now": {
+    "title": "Now",
+    "eta": "~{m} min",
+    "none": "None open",
+    "line": "Pickup: Now · about {m} min",
+    "change": "Change",
+    "free": "free",
+    "fee": "Pick up now",
+    "chip": "Now +{f}",
+    "chipFree": "Now · free",
+    "waitT1": "Waiting",
+    "waitT2": "for {s}",
+    "waitSub": "They have 2 minutes to accept your pickup.",
+    "cancel": "Cancel request",
+    "okT1": "Request",
+    "okT2": "accepted",
+    "okSub": "{s} is on the way. Expect them in about {m} minutes.",
+    "noT1": "No",
+    "noT2": "answer yet",
+    "noSub": "{s} couldn't take this one right now.",
+    "other": "Choose another shop",
+    "demoNote": "Demo: the shop accepts after a few seconds.",
+    "badge": "NOW"
+   },
+   "rounds": {
+    "shopsN": "{n} shops",
+    "shopsOne": "1 shop",
+    "none": "None",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "left": "{n} left",
+    "full": "Full",
+    "next": "Next round {d} {t}",
+    "back": "Back {d} · {w}",
+    "backToday": "today",
+    "backTomorrow": "tomorrow",
+    "shopLine": "{d} · {w} · {n} left",
+    "pickTitle": "Pick a round",
+    "in2": "In 2 days"
    }
   }
  },
@@ -628,7 +677,8 @@
    "demoCustomer": "جرّب كعميل",
    "demoShop": "جرّب كصاحب محل",
    "demoReset": "إعادة ضبط البيانات التجريبية",
-   "demoNote": "وضع تجريبي: أي كلمة مرور تعمل."
+   "demoNote": "وضع تجريبي: أي كلمة مرور تعمل.",
+   "demoCourier": "جرّب كمندوب توصيل"
   },
   "prefs": {
    "title": "ابقَ على اطلاع",
@@ -1094,6 +1144,54 @@
     "secure": "تذهب بيانات بطاقتك مباشرة إلى مزوّد الدفع. إكويلي لا تحفظ رقم بطاقتك الكامل أو رمز CVV.",
     "enterCvv": "أدخل رمز الأمان لهذه البطاقة.",
     "remove": "إزالة"
+   },
+   "avail": {
+    "notNow": "لا يستلم الآن",
+    "closedToday": "مغلق اليوم",
+    "opensAt": "يفتح {t}",
+    "closedNow": "مغلق الآن",
+    "closedRound": "مغلق في {r}",
+    "roundFull": "مكتمل في {r}"
+   },
+   "now": {
+    "title": "الآن",
+    "eta": "~{m} دقيقة",
+    "none": "لا يوجد",
+    "line": "الاستلام: الآن · حوالي {m} دقيقة",
+    "change": "تغيير",
+    "free": "مجاناً",
+    "fee": "استلام فوري",
+    "chip": "الآن +{f}",
+    "chipFree": "الآن · مجاناً",
+    "waitT1": "في انتظار",
+    "waitT2": "{s}",
+    "waitSub": "لديهم دقيقتان لقبول طلب الاستلام.",
+    "cancel": "إلغاء الطلب",
+    "okT1": "تم قبول",
+    "okT2": "الطلب",
+    "okSub": "{s} في الطريق إليك. توقع وصولهم خلال حوالي {m} دقيقة.",
+    "noT1": "لا",
+    "noT2": "رد بعد",
+    "noSub": "لم يتمكن {s} من تنفيذ هذا الطلب الآن.",
+    "other": "اختر محلاً آخر",
+    "demoNote": "تجريبي: يقبل المحل بعد ثوانٍ.",
+    "badge": "الآن"
+   },
+   "rounds": {
+    "shopsN": "{n} محلات",
+    "shopsOne": "محل واحد",
+    "none": "لا يوجد",
+    "today": "اليوم",
+    "tomorrow": "غداً",
+    "left": "متبقي {n}",
+    "full": "مكتمل",
+    "next": "أقرب جولة {d} {t}",
+    "back": "يعود {d} · {w}",
+    "backToday": "اليوم",
+    "backTomorrow": "غداً",
+    "shopLine": "{d} · {w} · متبقي {n}",
+    "pickTitle": "اختر جولة",
+    "in2": "بعد يومين"
    }
   }
  }
